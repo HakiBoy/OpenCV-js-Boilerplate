@@ -1,0 +1,28 @@
+{
+  "name": "opencv-js-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HakiBoy/OpenCV-js-Boilerplate.git"
+  },
+  "keywords": [
+    "opencv",
+    "nodejs",
+    "image",
+    "processing"
+  ],
+  "author": "Therachart Wicheanrat",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HakiBoy/OpenCV-js-Boilerplate/issues"
+  },
+  "homepage": "https://github.com/HakiBoy/OpenCV-js-Boilerplate#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

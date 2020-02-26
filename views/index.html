@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script async src="js/opencv.js" onload="onOpenCvReady();" type="text/javascript"></script>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <img id="sourceImage" src="lena.png" />
+    <canvas id="destinationCanvas"></canvas>
+    <script>
+      async function onOpenCvReady () {
+        const sourceImageDOM = document.getElementById('sourceImage')
+        const sourceImage = cv.imread(sourceImageDOM)
+        const destinationImage = new cv.Mat()
+        cv.cvtColor(sourceImage, destinationImage,  cv.COLOR_BGR2GRAY, 0)
+        cv.imshow('destinationCanvas', destinationImage)
+      }
+    </script>
+    
