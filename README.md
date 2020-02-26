@@ -51,6 +51,7 @@ http://localhost:3000
 * [Javascript]
 
 ## OpenCV.js Tutorial 
+Use the following url to kickstart with opencv.js
 ```
 https://docs.opencv.org/3.4/d5/d10/tutorial_js_root.html
 ```
