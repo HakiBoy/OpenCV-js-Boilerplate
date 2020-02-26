@@ -36,7 +36,6 @@ node server.js
 ### To see the result
 Open you web browser and go to url below
 
-use this url for webcam version skin detection
 ```
 http://localhost:3000
 ```
