@@ -11,7 +11,7 @@ Or you can install by download from this site
 ```
 https://nodejs.org/en/download/
 ```
-after install nodejs runtime run this command in terminal to make sure nodejs is working fine
+After install nodejs runtime. Run this command in terminal to make sure nodejs is working fine
 ```
 node -v
 output should look like this --> v10.16.3
@@ -44,11 +44,17 @@ http://localhost:3000
 ```
 
 ## Build with
-* [OpenCV] - https://docs.opencv.org/3.4/d5/d10/tutorial_js_root.html - OpenCV is open source computer vision and in this project use version for javascript
+* [OpenCV] - https://docs.opencv.org - OpenCV is open source computer vision and in this project use version for javascript
 * [Express] - https://expressjs.com/ - Express is Node.js web application framework that we use to serve our html, css and script from server side.
 * [HTML]
 * [CSS]
 * [Javascript]
+
+## OpenCV.js Tutorial 
+```
+https://docs.opencv.org/3.4/d5/d10/tutorial_js_root.html
+```
+
 
 ## Authors
 * **Therachart Wicheanrat**
@@ -57,4 +63,4 @@ http://localhost:3000
 This project is licensed under the MIT License
 
 ## Notes from authors
-I created this project for someone who want to start playing on image processing with opencv. So feel free to do anything as you want.
+I created this project for someone who want to start playing on image processing with opencv javscript version. So feel free to do anything as you want.
